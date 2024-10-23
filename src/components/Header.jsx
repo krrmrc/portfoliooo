@@ -23,7 +23,7 @@ function Header() {
   return (
     <header className={`${stickyClass}`}>
       <div className="header-inner">
-        <span className="logo">Karra Marie</span>
+        <span className="logo">KM</span>
         <div className="links">
           <a className="link" href="#banner">
             Home
@@ -65,3 +65,10 @@ function Header() {
 }
 
 export default Header;
+
+
+
+
+
+
+

@@ -67,14 +67,26 @@ header .header-inner {
   font-weight: 900;
 }
 .header-inner .link {
+  background-image: linear-gradient(135deg, #cc1f1f, #424640);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #000000;
+  height: 50px;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
   margin-right: 30px;
-  color: var(--light);
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   transition: 0.3s;
 }
 .header-inner .link:hover {
+  color: #ffffff !important;
   color: var(--red-text);
 }
 header .menu {
@@ -97,7 +109,15 @@ header .mobile-links {
   flex: 0 0 50%;
   max-width: 50%;
   width: 100%;
+  background-color: #cec6c6;
+  margin-right:20px;
+  border-radius: 50px 75px 25px 0px;
+}
 
+.karra_law_ay{
+  display: flex;
+  margin:auto;
+  border-radius: 70%;
 }
 .banner .banner-content h6 {
   font-size: 18px;
@@ -469,7 +489,9 @@ footer p i {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 20px;
+    
   }
+
 }
 
 @media (max-width: 660px) {
